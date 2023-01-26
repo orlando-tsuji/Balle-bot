@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container{
+    padding: 0 7vw;
+}
+
+.titulo{
+    font-family: var(--fonte-secundaria);
+    font-size: 64px;
+    margin-top: 2em;
+}
+
+.subtitulo{
+    font-size: 24px;
+    color: var(--bege);
+    margin: 2em 0 3.5em 0;
+}
+
+.botao{
+    padding: 0.7em 1em;
+    text-decoration: none;
+    font-size: 24px;
+    color: var(--cor-botão);
+    border: 1px solid var(--bege);
+    border-radius: 20px;
+    background-color: var(--bege);
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}

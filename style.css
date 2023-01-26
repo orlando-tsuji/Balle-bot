@@ -1,8 +1,12 @@
 @import url("css/header.css");
+@import url("css/main.css");
 
 :root{
     --branco: #FFF2E7;
     --fonte-principal: 'Sarala', sans-serif;
+    --fonte-secundaria: 'Righteous';
+    --bege: #ECD6C4;
+    --cor-botão: #2F2325;
 
 }
 
@@ -11,4 +15,5 @@ body {
     background: linear-gradient(85.15deg, #2F2325 2.62%, #8E5D52 94.61%);
     font-size: 18px;
     font-weight: 400;
+    color: var(--branco);
 }
