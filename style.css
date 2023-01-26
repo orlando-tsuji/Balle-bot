@@ -1,0 +1,14 @@
+@import url("css/header.css");
+
+:root{
+    --branco: #FFF2E7;
+    --fonte-principal: 'Sarala', sans-serif;
+
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background: linear-gradient(85.15deg, #2F2325 2.62%, #8E5D52 94.61%);
+    font-size: 18px;
+    font-weight: 400;
+}
