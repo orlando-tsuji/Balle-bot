@@ -1,5 +1,6 @@
 @import url("css/header.css");
 @import url("css/main.css");
+@import url("css/rodapé.css");
 
 :root{
     --branco: #FFF2E7;
@@ -12,7 +13,7 @@
 
 body {
     font-family: var(--fonte-principal);
-    background: linear-gradient(85.15deg, #2F2325 2.62%, #8E5D52 94.61%);
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%) no-repeat;
     font-size: 18px;
     font-weight: 400;
     color: var(--branco);

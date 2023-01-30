@@ -1,13 +1,11 @@
-.container{
+.conteudo-principal-primario{
     display: flex;
     justify-content: space-around;
+    padding: 0 7vw 5vw 7vw;
+
 }
 
-.container{
-    padding: 0 7vw;
-}
-
-.titulo{
+.titulo-principal{
     font-family: var(--fonte-secundaria);
     font-size: 64px;
     margin-top: 2em;
@@ -28,4 +26,31 @@
     border-radius: 20px;
     background-color: var(--bege);
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    transition-duration: 0.5s;
+}
+
+.botao:hover{
+    background-color:  #D38B8B;
+    border-color: #D38B8B;
+    transform: scale(1.1);
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2.5em;
+}
+
+.titulo-secundario{
+    font-size: 24px;
+    font-family: var(--fonte-secundaria);
+    padding: 3em 0 2em 0;
+    border-top: 0.4px solid var(--branco);
+}
+
+.conteudo-secundario-paragrafo{
+    color: var(--bege);
+    font-size: 18px;
+    margin-bottom: 2em;
 }
